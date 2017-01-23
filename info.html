@@ -1,0 +1,60 @@
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="javascript.js"></script>
+	<script> window.onload = init;</script
+	</head>
+
+	<body>
+	<img id="logo" src="logo.png">
+	<div id="mainDiv">
+		<br><br>
+		<p id="subTitle"> 
+			An abstract strategy card game based on the antiquated notion that "Nature abhors a vacuum."
+		</p>
+		<br><br>
+		<a id="homepage" href="index.html">homepage</a>
+	    
+		<p>
+		Horror Vacui es un juego simple de elementos basado en la noción arcaica de que la naturaleza repele el vacío.<br>
+		
+		<br><br>
+		Los jugadores representan dos elementos básicos de la naturaleza, el agua y la tierra.
+		Ambos jugadores toman turnos para colocar su carta de elemento sobre el "vacío".
+		Aqui vemos una carta de elemento tierra sobre el vacío.
+		</p>
+		<img src="instructions1.png"></img>
+		<br>
+		<p>
+		Las cartas cuentan con una propiedad de temperatura.
+		Este está determinado por su contorno.
+		Pueden ser:
+		<ul>
+		  <li id="cold">Frío</li>,
+		  <li id="neutral">Neutral</li> o
+		  <li id="hot">Caliente</li>.
+		</ul>
+		</p>
+		<p>
+		Cada carta colocada sobre el tablero tiene un efecto directo sobre la carta superior, inferior y las que se encuentran a su izquierda y derecha.
+		</p>
+		<p>
+		Debemos considerar estas reglas cuando colocamos cartas.
+		</p>
+		<p> Una carta <b id="cold"> fría </b> en contacto. con otra carta <b id="cold"> fría </b> resultará en ambas congelandose, ergo destruyendose y ambas eliminadas del juego.</p>
+		<p> Una carta <b id="hot"> caliente </b> en contacto. con otra carta <b id="hot"> caliente </b> dará lugar a ambas cartas incinerandose siendo removidas del juego.</p>
+		<p> Una carta <b id="cold"> fría </b> en contacto. con otra carta <b id="hot"> caliente </b> iniciará un intercambio de temperaturas, y al igual que en la naturaleza, ambas cartas llegarán a una temperatura <b id="neutral"> neutral </b></p>
+		<p> Y para terminar, cualquier carta <b id="neutral"> neutral </b> no tendrá efecto alguno sobre las cartas de su alrededor.</p>
+		<br><br><br>
+		<p> Aqui puedes ver una jugada de ejemplo dónde se aplican todas las reglas: </p>
+		<img src="instructions2.png"></img>
+		<p> La carta superior es <b id="neutral"> neutral </b> al igual que la carta derecha. Éstas permanecerán igual. 
+		La carta inferior es <b id="cold"> fría </b> por lo cual será congelada y desaparecerá al igual que la central.
+		Sin embargo el <b id="cold"> frío </b> de la carta central será transferido a la carta derecha <b id="hot"> caliente </b> y ésta se volverá <b id="neutral"> neutral </b>.
+		<img src="instructions3.png"></img>
+		<p> Dirija cualquier duda adicional sobre las reglas a afiol@necrofant.asia y gracias por probar el juego.</p>
+		<p> Concepto original del juego por Sinman, desarollado y ilustrado por @echan42.</p>
+	</div>
+	</body>
+</html>

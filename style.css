@@ -1,0 +1,90 @@
+body{
+   margin: 20px;
+    padding: 0;
+    text-align: center;
+    background-color: #352b32;
+}
+p {
+	margin: 10px 0px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 13px;
+	color: #4b6d85;
+}
+#logo{
+	height: 120px;
+}
+a {	
+	margin: 10px;
+	margin-top: 20px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 25px;
+	color: #f7f7d6;
+	text-decoration: none;
+}
+a:hover{	
+	margin: 10px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 25px;
+	color: #96cf85;
+    text-decoration: underline;
+}
+#onePlayer {
+	margin: 10px;
+	margin-top: 20px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 25px;
+	color: #f7f7d6;
+	text-decoration: line-through;
+}
+h1{
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #33FF99 ;
+}
+
+
+div div {
+    width: 71px;
+    height: 100px;
+    outline: 1.8px dashed;
+    outline-color: #4b6d85;
+    float: left;
+    margin: 5px;
+}
+
+#mainDiv{
+	margin: 0 auto;
+    width: 450px;
+}
+
+#footer {
+    text-align: center;
+    position: relative;
+    height: 115px;
+    width: 95%;
+    align-content: center;
+    float: left;
+    margin-left:2%;
+}
+ul {
+	margin: 10px 0px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 13px;
+	color: #4b6d85;
+}
+#cold{
+	display: inline;
+	color: #aef5ff;
+}
+#neutral{
+	display: inline;
+	color: #aeffbf;
+}
+#hot{
+	display: inline;
+	color: #ffbb7e;
+}
+b {
+	margin: 10px 0px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 13px;
+}
